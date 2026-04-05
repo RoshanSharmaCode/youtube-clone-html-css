@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Youtube.com Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" shref="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,484;1,484&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img 
+        class="hamburger-menu" src="Icons/hamburger-menu.svg">
+        <img 
+        class="youtube-logo" src="Icons/youtube-logo.svg">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="Icons/search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        <!-- put position absolut inside position relative -->
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="Icons/voice-search-icon.svg">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="Icons/upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-apps-icon-container">
+          <img class="youtube-apps-icon" src="Icons/youtube-apps.svg">
+          <div class="tooltip">YouTube apps</div>
+        </div>
+        
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="Icons/notifications.svg">
+          <div class="notifications-count">3</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        <img class="current-user-picture" src="channel-pic/my-channel.png">
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="Icons/home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="Icons/explore.svg">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="Icons/subscriptions.svg">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="Icons/originals.svg">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="Icons/youtube-music.svg">
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="Icons/library.svg">
+        <div>Library</div>
+      </div>
+    </nav>
+    
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+            <div class="video-time">14:20</div>
+          </div>
+
+          <div class="video-info-div">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pic/channel-1.jpeg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+              Talking Texh and AI with Google CEO Sundar Pichai!
+            <p>
+
+            <P class="video-author">
+              Marques Brownlee
+            </P>
+            
+            <p class="video-stats">
+              3.4M views &#183; 6 months ago
+            </P>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+            <div class="video-time">8:22</div>
+          </div>
+          <div class="video-info-div">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pic/channel-2.jpeg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+              Try Not To Laugh Challenge #9
+            <p>
+
+            <P class="video-author">
+              Markiplier
+            </P>
+            
+            <p class="video-stats">
+              19M views &#183; 4 years ago
+            </P>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-3.webp">
+            <div class="video-time">9:13</div>
+          </div>
+
+          <div class="video-info-div">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pic/channel-3.jpeg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+              Crazy Tik Toks Taken Moments Before DISASTER
+            <p>
+
+            <P class="video-author">
+              SSSniperWolf
+            </P>
+            
+            <p class="video-stats">
+              12M views &#183; 1 year ago
+            </P>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-4.webp">
+            <div class="video-time">22:09</div>
+          </div>
+          <div class="video-info-div">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pic/channel-4.jpeg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+              The Simplest Math Problem No One Can Solve - Collatz Conjecture
+            <p>
+
+            <P class="video-author">
+              Veritasium
+            </P>
+            
+            <p class="video-stats">
+              18M views · &#183; 4 months ago
+            </P>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
+            <div class="video-time">11:17</div>
+          </div>
+
+          <div class="video-info-div">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pic/channel-5.jpeg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+              Kadane's Algorithm to Maximum Sum Subarray Problem
+            <p>
+
+            <P class="video-author">
+              CS Dojo
+            </P>
+            
+            <p class="video-stats">
+              519K views &#183; 5 years ago
+            </P>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-6.webp">
+            <div class="video-time">19:59</div>
+          </div>
+          <div class="video-info-div">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pic/channel-6.jpeg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+              Anything You Can Fit In The Circle I’ll Pay For
+            <p>
+
+            <P class="video-author">
+              MrBeast
+            </P>
+            
+            <p class="video-stats">
+              141M views · &#183; 1 years ago
+            </P>
+            </div>
+          </div>
+        </div>
+
+        <!-- duplicates --> 
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-7.webp">
+            <div class="video-time">1:01:44</div>
+          </div>
+          <div class="video-info-div">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pic/channel-7.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+              Leon is Still A Monster | Resident Evil Requiem - Part 1
+            <p>
+
+            <P class="video-author">
+              BeastBoyShub
+            </P>
+            
+            <p class="video-stats">
+              1.6M views · &#183; 1 month ago
+            </P>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-8.webp">
+            <div class="video-time">42:12</div>
+          </div>
+          <div class="video-info-div">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pic/channel-8.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+              GUESS THE COMEDIAN (ft. Michael McIntyre, Stephen Tries & Cole Anderson)
+            <p>
+
+            <P class="video-author">
+              KSI
+            </P>
+            
+            <p class="video-stats">
+              2.3M views · &#183; 2 weeks ago
+            </P>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-9.webp">
+            <div class="video-time">19:02</div>
+          </div>
+          <div class="video-info-div">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pic/channel-9.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+              I tested even CRAZIER Xiaomi Gadgets!
+            <p>
+
+            <P class="video-author">
+              Mrwhosetheboss
+            </P>
+            
+            <p class="video-stats">
+              5M views · &#183; 3 months ago
+            </P>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-10.webp">
+            <div class="video-time">19:59</div>
+          </div>
+          <div class="video-info-div">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pic/channel-10.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+              Brawl Stars: No Time to Explain
+            <p>
+
+            <P class="video-author">
+              Brawl Stars
+            </P>
+            
+            <p class="video-stats">
+              392M views · &#183; 7 years ago
+            </P>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-11.webp">
+            <div class="video-time">8:51</div>
+          </div>
+          <div class="video-info-div">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pic/channel-11.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+              World Record for TH2 in Masters League!
+            <p>
+
+            <P class="video-author">
+              Judo Sloth Gaming
+            </P>
+            
+            <p class="video-stats">
+              8.3M views · &#183; 4 years ago
+            </P>
+            </div>
+          </div>
+        </div>
+
+                <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-12.webp">
+            <div class="video-time">37:17</div>
+          </div>
+          <div class="video-info-div">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pic/channel-7.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+              CAN WE FIND THE TREASURE HIDDEN IN THE HOLE?
+            <p>
+
+            <P class="video-author">
+              BeastBoyShub
+            </P>
+            
+            <p class="video-stats">
+              841K views · &#183; 2 month ago
+            </P>
+            </div>
+          </div>
+        </div>
+        
+      </section>
+    </main>
+    
+  </body>
+</html>
