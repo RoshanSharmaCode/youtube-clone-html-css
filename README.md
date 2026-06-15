@@ -27,7 +27,3 @@ This project focuses on layout design, UI structure, and responsiveness.
 - Flexbox & layout design
 - Positioning elements
 - Building real-world UI
-
-## 📫 Contact
-- LinkedIn: https://www.linkedin.com/in/roshansharma9379
-- Email: roshansharma9379@gmail.com
