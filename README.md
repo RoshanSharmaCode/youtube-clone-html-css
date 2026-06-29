@@ -14,11 +14,6 @@ This project focuses on layout design, UI structure, and responsiveness.
 - HTML5
 - CSS3
 
-## 📂 Project Structure
-- index.html
-- style.css
-- assets/
-
 ## ▶️ How to Run
 1. Download or clone the repo
 2. Open `index.html` in your browser
